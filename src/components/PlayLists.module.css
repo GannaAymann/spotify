@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    padding:1rem;
+}
+.listStyle{
+    display: flex;
+    gap:1rem;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+    font-size: larger;
+    color: azure;;
+    border: 5px #181818 solid;
+    background-color: #181818;
+    border-radius: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 5px rgb(21, 183, 102), 10px 10px rgb(9, 130, 53), 15px 15px rgb(0, 81, 32) */
+    
+}
+
+.listStyle:hover{
+    /* text-shadow: 7px 5px 5px rgb(54, 150, 115); */
+    
+    color: rgb(12, 222, 117);
+}
+.Theheader{
+    margin-left: 10px;
+    border-color: azure;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

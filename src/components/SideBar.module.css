@@ -1,0 +1,40 @@
+.TheContainer{
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+}
+.top_links{
+   display: flex;
+   flex-direction: column;
+}
+.logo{
+    text-align: center;
+    margin: 1rem 0;
+}
+.imgg{
+    max-inline-size: 80%;
+    block-size: auto;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    padding:1rem;
+}
+li{
+    display: flex;
+    gap:1rem;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+    font-size: larger;
+    
+}
+li:hover{
+    /* text-shadow: 7px 5px 5px rgb(54, 150, 115); */
+    color: rgb(0, 128, 64);
+}
